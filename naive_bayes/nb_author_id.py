@@ -16,8 +16,7 @@ from time import time
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 
-sys.path.append("../tools/")
-from email_preprocess import preprocess
+from tools.email_preprocess import preprocess
 
 # features_train and features_test are the features for the training
 # and testing datasets, respectively
